@@ -1,0 +1,10 @@
+spring:
+  main:
+    banner-mode: 'off'
+
+server:
+  port: 3200
+
+providers:
+  weather:
+    url: http://localhost:4200/weather
